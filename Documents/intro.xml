@@ -1,0 +1,28 @@
+DF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cd="http://www.introductionpage/"
+xmlns:dd="http://www.kyahai/"
+xmlns:pp="http://www.city/"
+xmlns:qq="http://www.country/">
+
+<rdf:Description
+rdf:about="http://www.woman/AnneHathaway">
+  <cd:married>Shakespeare</cd:married>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.introductionpage/married/">
+  <dd:wrote>Kinglear, The Tempest, Henryv</dd:wrote>
+  <dd:livedin>Startford</dd:livedin>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.kyahai/livedin">
+  <pp:isin>England</pp:isin>
+</rdf:Description>
+<rdf:Description
+rdf:about="http://www.city/isin/">
+  <qq:partof>UK</qq:partof>
+</rdf:Description>
+</rdf:RDF>
+
