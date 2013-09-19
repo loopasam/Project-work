@@ -52,7 +52,7 @@ public class HelloRDFWorld {
 		           
 	    model.write(System.out, "N-TRIPLES");  
 	 
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method  stub
 
 
 		
