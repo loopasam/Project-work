@@ -16,7 +16,7 @@ rdf:about="http://www.woman/AnneHathaway">
 
 <rdf:Description
 rdf:about="http://www.woman/AnneHathaway">
-  <cd:married>"http://www.man/Shakespeare"</cd:married>
+  <cd:married>http://www.man/Shakespeare</cd:married>
 </rdf:Description>
 
 <rdf:Description
@@ -27,7 +27,7 @@ rdf:about="http://www.man/Shakespeare">
 <rdf:Description
 rdf:about="http://www.man/Shakespeare">
   <cd:wrote>Kinglear, The Tempest, Henryv</cd:wrote>
-  <cd:livedin>"http://www.city/Startford"</cd:livedin>
+  <cd:livedin>http://www.city/Startford</cd:livedin>
 </rdf:Description>
 
 <rdf:Description
@@ -39,7 +39,7 @@ rdf:about="http://www.city/Startford">
 
 <rdf:Description
 rdf:about="http://www.city/Startford">
-  <dd:isin>"http://www.country/England"</dd:isin>
+  <dd:isin>http://www.country/England</dd:isin>
 </rdf:Description>
 
 <rdf:Description
