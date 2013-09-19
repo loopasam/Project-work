@@ -1,0 +1,15 @@
+_:Bc401745X3A14136692ba9X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#ADR> _:Bc401745X3A14136692ba9X3AX2D7ffe .
+_:Bc401745X3A14136692ba9X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#N> "Kinglear, The Tempest, Hemryv" .
+_:Bc401745X3A14136692ba9X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#CLASS> "Shakespeare" .
+_:Bc401745X3A14136692ba9X3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2001/vcard-rdf/3.0#FN> .
+_:Bc401745X3A14136692ba9X3AX2D7ffe <http://www.w3.org/2001/vcard-rdf/3.0#AGENT> _:Bc401745X3A14136692ba9X3AX2D7ffd .
+_:Bc401745X3A14136692ba9X3AX2D7ffe <http://www.w3.org/2001/vcard-rdf/3.0#GEO> "Startford" .
+_:Bc401745X3A14136692ba9X3AX2D7ffe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2001/vcard-rdf/3.0#ADR> .
+_:Bc401745X3A14136692ba9X3AX2D7ffd <http://www.w3.org/2001/vcard-rdf/3.0#Country> "UK" .
+_:Bc401745X3A14136692ba9X3AX2D7ffd <http://www.w3.org/2001/vcard-rdf/3.0#GROUP> "England" .
+_:Bc401745X3A14136692ba9X3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2001/vcard-rdf/3.0#AGENT> .
+<http://www.woman/AnneHathaway> <http://www.w3.org/2001/vcard-rdf/3.0#FN> _:Bc401745X3A14136692ba9X3AX2D7fff .
+<http://www.woman/AnneHathaway> <http://www.w3.org/2001/vcard-rdf/3.0#KEY> "AnneHathway" .
+
+
+
