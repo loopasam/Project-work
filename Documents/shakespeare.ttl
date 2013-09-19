@@ -1,0 +1,23 @@
+<http://www.woman/AnneHathaway>
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                [ a       <http://www.w3.org/2001/vcard-rdf/3.0#FN> ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#ADR>
+                          [ a       <http://www.w3.org/2001/vcard-rdf/3.0#ADR> ;
+                            <http://www.w3.org/2001/vcard-rdf/3.0#AGENT>
+                                    [ a       <http://www.w3.org/2001/vcard-rdf/3.0#AGENT> ;
+                                      <http://www.w3.org/2001/vcard-rdf/3.0#Country>
+                                              "UK" ;
+                                      <http://www.w3.org/2001/vcard-rdf/3.0#GROUP>
+                                              "England"
+                                    ] ;
+                            <http://www.w3.org/2001/vcard-rdf/3.0#GEO>
+                                    "Startford"
+                          ] ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#CLASS>
+                          "Shakespeare" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                          "Kinglear, The Tempest, Hemryv"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#KEY>
+                "AnneHathway" .
+
