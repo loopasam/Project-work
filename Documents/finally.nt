@@ -1,0 +1,9 @@
+<http://www.woman/Annehathway> <http://www.woman/name> "AnneHathaway".
+<http://www.woman/Annehathway> <http://www.introductionpage/married> <http://www.man/Shakespeare>.
+<http://www.man/Shakespeare> <http://www.man/name> "Shakespeare".
+<http://www.man/Shakespeare> <http://www.introductionpage/wrote> "Kinglear, The Tempest, Henryv".
+<http://www.man/Shakespeare> <http://www.introductionpage/livedin> <http://www.kyahai/Startford>.
+<http://www.kyahai/Startford> <http://www.kyahai/name> "Startford".
+<http://www.kyahai/Startford> <http://www.kyahai/isin> <http://www.city/England>.
+<http://www.city/England> <http://www.city/name> "England".
+<http://www.city/England> <http://www.country/partof> "UK".
