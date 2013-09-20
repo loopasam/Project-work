@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" > 
+  <rdf:Description rdf:about="http://www.woman/AnneHathaway">
+    <vcard:FN rdf:nodeID="A0"/>
+    <vcard:KEY>AnneHathway</vcard:KEY>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <vcard:Country>UK</vcard:Country>
+    <vcard:GROUP>England</vcard:GROUP>
+    <rdf:type rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#AGENT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <vcard:ADR rdf:nodeID="A2"/>
+    <vcard:N>Kinglear, The Tempest, Hemryv</vcard:N>
+    <vcard:CLASS>Shakespeare</vcard:CLASS>
+    <rdf:type rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#FN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <vcard:AGENT rdf:nodeID="A1"/>
+    <vcard:GEO>Startford</vcard:GEO>
+    <rdf:type rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ADR"/>
+  </rdf:Description>
+</rdf:RDF>
