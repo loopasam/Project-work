@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cc="http://www.woman/"
+xmlns:tt="http://www.man/"
+xmlns:cd="http://www.introductionpage/"
+xmlns:dd="http://www.kyahai/"
+xmlns:pp="http://www.city/"
+xmlns:qq="http://www.country/">
+
+<rdf:Description
+rdf:about="http://www.woman/AnneHathaway">
+  <cc:name>AnneHathaway</cc:name>
+</rdf:Description>
+
+/*<rdf:Description
+rdf:about="http://www.woman/AnneHathaway">
+  <cd:married>[{"value":"http://www.man/Shakespeare>", "type":"uri"</cd:married>
+</rdf:Description> */
+
+<rdf:Description
+rdf:about="http://www.woman/AnneHathaway">
+  <cd:married><http://www.man/Shakespeare></cd:married>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.man/Shakespeare">
+  <tt:name>Shakespeare</tt:name>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.man/Shakespeare">
+  <cd:wrote>Kinglear, The Tempest, Henryv</cd:wrote>
+  <cd:livedin>http://www.city/Startford</cd:livedin>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.city/Startford">
+  <dd:name>Startford</dd:name>
+ 
+</rdf:Description>
+
+
+<rdf:Description
+rdf:about="http://www.city/Startford">
+  <dd:isin>http://www.country/England</dd:isin>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.country/England">
+  <pp:name>England</pp:name>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.country/England">
+  <qq:partof>UK</qq:partof>
+</rdf:Description>
+</rdf:RDF>
