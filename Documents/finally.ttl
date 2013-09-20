@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix cc: <http://www.woman/>.
+@prefix tt: <http://www.man/>.
+@prefix cd: <http://www.introductionpage/>.
+@prefix dd: <http://www.kyahai/>.
+@prefix pp: <http://www.city/>.
+@prefix qq: <http://www.country/>.
+
+
+ cc:Annehathway cc:name "AnneHathaway";
+                cd:married tt:Shakespeare. 
+                
+ tt:Shakespeare tt:name "Shakespeare";
+                cd:wrote "Kinglear, The Tempest, Henryv";
+                cd:livedin  dd:Startford.
+                
+ dd:Startford   dd:name "Startford";            
+                dd:isin  pp:England.
+                
+ pp:England     pp:name "England"; 
+                qq:partof "UK".
+                                
