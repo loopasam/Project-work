@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:pp="http://www.city/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tt="http://www.man/" xmlns:qq="http://www.country/" xmlns:cc="http://www.woman/" xmlns:dd="http://www.kyahai/" xmlns:cd="http://www.introductionpage/">
+	<rdf:Description rdf:about="http://www.woman/Annehathway">
+		<cc:name>AnneHathaway</cc:name>
+		<cd:married>
+			<rdf:Description rdf:about="http://www.man/Shakespeare">
+				<tt:name>Shakespeare</tt:name>
+				<cd:wrote>Kinglear, The Tempest, Henryv</cd:wrote>
+				<cd:livedin>
+					<rdf:Description rdf:about="http://www.kyahai/Startford">
+						<dd:name>Startford</dd:name>
+						<dd:isin rdf:resource="http://www.city/England" pp:name="England" qq:partof="UK" />
+					</rdf:Description>
+				</cd:livedin>
+			</rdf:Description>
+		</cd:married>
+	</rdf:Description>
+</rdf:RDF>
