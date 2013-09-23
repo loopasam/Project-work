@@ -1,0 +1,31 @@
+@prefix dd:    <http://www.kyahai/> .
+@prefix tt:    <http://www.man/> .
+@prefix pp:    <http://www.city/> .
+@prefix cc:    <http://www.woman/> .
+@prefix qq:    <http://www.country/> .
+@prefix cd:    <http://www.introductionpage/> .
+
+pp:England  a      "country" ;
+        pp:name    "England" ;
+        qq:partof  "UK" .
+
+qq:Scotland  a     "country" ;
+        pp:name    "Scotland" ;
+        qq:partof  "UK" .
+
+tt:Shakespeare  a   "person" ;
+        cd:livedin  dd:Startford ;
+        cd:wrote    "Kinglear, The Tempest, Hemryv" ;
+        tt:name     "Shakespeare" .
+
+dd:Startford  a  "city" ;
+        dd:isin  pp:England ;
+        dd:name  "Startford" .
+
+qq:Wales  a        "country" ;
+        pp:name    "Wales" ;
+        qq:partof  "UK" .
+
+cc:AnneHathaway  a  "person" ;
+        cd:married  tt:Shakespeare ;
+        cc:name     "AnneHathway" .
