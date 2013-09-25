@@ -1,0 +1,47 @@
+@prefix dd:    <http://www.kyahai/> .
+@prefix tt:    <http://www.man/> .
+@prefix aa:    <http://www.person/> .
+@prefix pp:    <http://www.city/> .
+@prefix cc:    <http://www.woman/> .
+@prefix qq:    <http://www.country/> .
+@prefix cd:    <http://www.introductionpage/> .
+
+<http://www.veryCleanCountry/>
+        a       "very clean place" .
+
+pp:England  a      "country" ;
+        pp:name    "England" ;
+        qq:partof  "UK" .
+
+qq:Scotland  a     "country" ;
+        pp:name    "Scotland" ;
+        qq:partof  "UK" .
+
+<http://www.developedCountry/>
+        a       "high living standard" .
+
+tt:Shakespeare  a   "person" ;
+        cd:livedin  dd:Startford ;
+        cd:wrote    "Kinglear, The Tempest, Hemryv" ;
+        aa:age      "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        aa:name     "Shakespeare" .
+
+qq:Wales  a        "country" ;
+        a          <http://www.developedCountry/> ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://www.veryCleanCountry/> ;
+        pp:name    "Wales" ;
+        qq:partof  "UK" .
+
+dd:Startford  a  "city" ;
+        dd:isin  pp:England ;
+        dd:name  "Startford" .
+
+cc:AnneHathaway  a  "person" ;
+        cd:friend   cc:Happy ;
+        cd:married  tt:Shakespeare ;
+        aa:age      "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        aa:name     "AnneHathway" .
+
+cc:Happy  a      "person" ;
+        aa:name  "Happy" .
