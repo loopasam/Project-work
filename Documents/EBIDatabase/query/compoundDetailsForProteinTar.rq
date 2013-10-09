@@ -14,17 +14,18 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#>
 
 
-
 SELECT ?tar ?title ?tarTyp  ?protSeq ?uniref
 WHERE {
- 
- ?o cco:hasTarget ?tar.
- ?tar dcterms:title ?title.
- ?tar cco:targetType ?tarTyp.
- ?tar cco:hasTargetComponent ?tc.
- ?tc cco:hasProteinClassification ?pcl.
   
- ?tc cco:proteinSequence ?protSeq.
- ?tc skos:exactMatch ?em.
+  ?o cco:hasTarget ?tar.
+  ?tar dcterms:title ?title.
+  ?tar cco:targetType ?tarTyp.
+  FILTER regex(?tarTyp, “protein”, ‘i’ )
+  ?tar cco:hasTargetComponent ?tc.
+  ?tc cco:hasProteinClassification ?pcl.
+   
+  ?tc cco:proteinSequence ?protSeq.
+  ?tc skos:exactMatch ?em.
 ?em rdfs:label ?uniref.
+ 
 }
