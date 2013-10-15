@@ -1,4 +1,5 @@
-#Retrieve all the compounds which have an IC50 bioactivity value in nM:
+# retrieve the molecule chembl-ID having activity standard type "IC50"
+# and activity standered unit "nM"
 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

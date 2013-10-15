@@ -1,4 +1,7 @@
-#- way to find out the rotational bond of chembl molecule having ID "CHEMBL192".
+ #Retrieve all the bioactive molecule for bacterial targets:
+# we can use filter for selecting organism name but without it the solution is possible and 
+# with less time consuming query.
+
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,7 +15,14 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#>
 
-SELECT  ?rotbon
+
+SELECT ?molecule 
 WHERE {
-  <http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL192#rtb> ?p ?rotbon .
+  ?molecule rdfs:subClassOf cco:Substance.
+  ?molecule cco:hasActivity ?act.
+  ?act cco:hasAssay ?ass.
+  ?ass cco:hasTarget ?tar.
+  ?tar cco:organismName ?org.
+  FILTER regex(?org , "Bacteria")
+
 }

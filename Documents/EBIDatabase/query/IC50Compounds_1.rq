@@ -1,4 +1,6 @@
-#- way to find out the rotational bond of chembl molecule having ID "CHEMBL192".
+# retrieve the molecule chembl-ID having activity standard type "IC50"
+# and activity standered unit "nM". We can do using filter for "IC50" and "nM"
+# but that will be time consuming for running query.
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,7 +14,14 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#>
 
-SELECT  ?rotbon
+
+
+SELECT  ?chembl_id  ?std_value
 WHERE {
-  <http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL192#rtb> ?p ?rotbon .
+ ?molecule cco:hasActivity ?Activity.
+ ?Activity cco:standardValue ?std_value .
+ ?Activity cco:standardUnits "nM" .
+ ?Activity cco:standardType "IC50" .
+ ?molecule rdfs:label ?chembl_id .
+  
 }

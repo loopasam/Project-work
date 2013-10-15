@@ -1,5 +1,6 @@
-#Retrieve compound activity details for a target:
-#-- Target is Human PDE5 (CHEMBL1827) 
+# Retrieve compound activity details for a target such as activity standerd value, type
+# unit, relation. And description about assay  
+# Target is Human PDE5 (CHEMBL1827) 
 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

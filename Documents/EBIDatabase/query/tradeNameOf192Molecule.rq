@@ -1,4 +1,4 @@
-#- What are the trade names?
+# way to obtain the trade name of molecule having chembl-id "CHEMBL192".
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

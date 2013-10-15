@@ -1,4 +1,4 @@
-#Retrieve target ChEMBL_ID, target_name, target_type, uniprot_reference and sequences for all protein targets:
+#Retrieve target ChEMBL_ID, target_name, target_type, uniprot_reference and sequences for proteins target:
 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

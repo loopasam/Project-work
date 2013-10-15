@@ -1,4 +1,4 @@
-# subtance type interaction with cell-lines.
+# list of subtance type having targey type "cell-line".
 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -15,11 +15,11 @@ PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#>
 PREFIX sio: <http://semanticscience.org/resource/> 
 
 
-SELECT DISTINCT   ?m  ?label
+SELECT DISTINCT   ?subsTyp  ?label
 WHERE {
  
       ?molecule rdfs:subClassOf ?subs;  
-           cco:substanceType ?m;
+           cco:substanceType ?subsTyp;
            skos:prefLabel ?prlabel ;    
            rdfs:label ?chembl_id ;
            cco:hasActivity ?act. 

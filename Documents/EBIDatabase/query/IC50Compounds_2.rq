@@ -1,4 +1,7 @@
-#- way to find out the rotational bond of chembl molecule having ID "CHEMBL192".
+#Retrieve all the compounds having IC50 bioactivity value in nM.
+# have not used filter but still able to print a column having standered type and
+# standered unit with variable column name.
+
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,7 +15,14 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#>
 
-SELECT  ?rotbon
+
+
+SELECT  ?chembl_id  ?std_value "nm"  "IC50" 
 WHERE {
-  <http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL192#rtb> ?p ?rotbon .
+ ?molecule cco:hasActivity ?Activity.
+ ?Activity cco:standardValue ?std_value .
+ ?Activity cco:standardUnits "nM" .
+ ?Activity cco:standardType "IC50" .
+ ?molecule rdfs:label ?chembl_id .
+  
 }
