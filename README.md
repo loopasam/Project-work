@@ -1,4 +1,4 @@
-Where are the modeling stuffs:
+stuffs related to modeling are here:
 - [ java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial /)  
 
 
