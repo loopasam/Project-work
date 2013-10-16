@@ -1,5 +1,5 @@
 stuffs related to modeling are here:
-- [ java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial /)  
+- [ java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
 
 
 - [ Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
