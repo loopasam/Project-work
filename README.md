@@ -1,7 +1,5 @@
 # stuffs related to modeling are here:
 - [ java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
-
-
 - [ Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
 ---
 #I have kept the chemblDatabase queries in a folder /Documents/EBIDatabase/Query. we can directlly run the query using 
