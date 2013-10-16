@@ -1,6 +1,8 @@
-java programing for making model using Eclipse, is availe in : - [ ]( https://github.com/Ashwini607/Project-work/blob/master/Documents / workspace / trial / src / trial /)  
+java programing for making model using Eclipse, is availe in :
+- [ ]( https://github.com/Ashwini607/Project-work/blob/master/Documents / workspace / trial / src / trial /)  
 
-Result of models in different serialisation of RDF is available in : - [ ](https://github.com/Ashwini607/Project-work/blob/master/Documents)
+Result of models in different serialisation of RDF is available in : 
+- [ ](https://github.com/Ashwini607/Project-work/blob/master/Documents)
 
 I have kept the chemblDatabase queries in a folder /Documents/EBIDatabase/Query. we can directlly run the query using 
 terminal but for running on sparql-endpoint of database, remove the comment from query.  
