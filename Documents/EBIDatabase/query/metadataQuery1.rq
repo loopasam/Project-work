@@ -1,5 +1,5 @@
 #this meta data query will work on any sparql-endpoint. 
 
-SELECT ?subject ?object ?property
+SELECT ?subject  ?property ?object
 WHERE
-{ ?subject ?object ?property}
+{ ?subject ?property  ?object }
