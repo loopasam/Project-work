@@ -16,7 +16,7 @@ some of the Queries related to ChEMBL sparql endpoint are mention below:
 - [Retrieving the compound, standered type, standered unit having activity standered type "IC50"  and standered unit "nM" using Filter but two conditions in a single filter](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/IC50Compounds_4.rq)
 - [Retrieving all the bioactive molecule for bacterial targets](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/bacterialTargetData.rq)
 - [Retrieving compound activity details for all target](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/compoundActDetails.rq)
-- [Retrieving target ChEMBL_ID, target_name, target_type, uniprot_reference and sequences for proteins target](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/compoundsDetailsForProteinTar.rq)
+- [Retrieving target ChEMBL_ID, target_name, target_type, uniprot_reference and sequences for proteins target](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/compoundDetailsForProteinTar.rq)
 - [Retrieving “CHEMBL282282”, compound's publication: journal and date](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/compoundJurDate.rq)
 - [Retrieving compounds targeting “Firefly Luciferase”](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/compoundToFirLuciferase.rq)
 - [Retrieving compound activity details for a target & Target is Human PDE5 (CHEMBL1827)](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/detailsForTarget.rq)
