@@ -3,6 +3,14 @@
 - [ Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
 
 ---
+ SPARQL query for metadata:
+ 
+- [able to retrieve all available triples](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery1.rq)
+- [able to retrieve all types of database](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery2.rq)
+- [able to retrievie Subclassof related data](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery3.rq)
+- [able to retrive all labeling data in database](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery4.rq)
+
+---
 
 I have kept the chemblDatabase queries in a folder /Documents/EBIDatabase/Query. we can directlly run the query using 
 terminal but for running on sparql-endpoint of database, remove the comment from query.  
