@@ -33,4 +33,4 @@ some of the Queries related to ChEMBL sparql endpoint are mention below:
 
 Shell Script:
 
--[most of them are for analysing the running time by programs to make more efficient sparql query](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
+- [most of them are for analysing the running time by programs to make more efficient sparql query](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
