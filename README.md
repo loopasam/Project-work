@@ -22,7 +22,7 @@ some of the Queries related to ChEMBL sparql endpoint are mention below:
 - [Retrieving compound activity details for a target & Target is Human PDE5 (CHEMBL1827)](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/detailsForTarget.rq)
 - [Retrieving molecule on the basis of trade name](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/moleculeSourceForTradeName.rq)
 - [Retrieving the molecular formula of molecule having chembl-id "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/molFormulaof192Molecule.rq)
-- [Retrieving compound activity details for all targets containing a protein of interes & Protein of interest is human M2 muscarinic receptor (P08172)](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/PO8172CompActAssTarDet.rq)
+- [Retrieving compound activity details for all targets containing a protein of interes & Protein of interest is human M2 muscarinic receptor (P08172)](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/P08172CompActAssTarDet.rq)
 - [Retrieving rotational bond of chembl molecule having ID "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/rotbonOf192Molecule.rq)
 - [Retrieving the molecules sources having molecular formula  combination of “C22H30N6O4S”](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/sourceForMolecularFormula)
 - [Retrieving substance type having targey type "cell-line"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/SubstanceTypeToCell-line.rq)
