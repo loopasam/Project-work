@@ -1,4 +1,4 @@
-# stuffs related to modeling are here
+# Stuffs related to RDF modeling 
 
 I have used Eclipse Java development tools and library of Apache Jena to make rdf model in different serialisation such as N-triples, Turtle, RDF/XML, and N3.
 
@@ -12,7 +12,7 @@ Complete guide for beginner to start jena project in Eclipse just [click](http:/
 ---
 # SPARQL query for metadata
 
-if you are new for rdf triple store then you can try these queries, because these work on any triple store. It will help to get familiar with containts of triple store.  
+if you are new in querying rdf triple store then you can try these queries, because these work on any triple store. It will help to get familiar with containts of triple store.  
  
 - [Retrieve all available triples from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery1.rq)
 - [Retrieve all types from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery2.rq)
@@ -24,6 +24,12 @@ if you are new for rdf triple store then you can try these queries, because thes
 
 I have kept the chembl triple store queries in a folder /Documents/EBIDatabase/Query. We can directlly run the query using 
 terminal but for running on sparql-endpoint of chembl triple store, remove the comment from the query. 
+
+Note: Try to avoid the use of filter function in SPARQL query, because it takes more time for running.
+
+In some of the quiries, I have used the filter function even is not needed but just to make a separate column.
+For example, I am interested in chembl-ID of molecules have activity standard type "IC50" then we can just put "IC50" value at standard type but to make a extra column to show that I have selected the correct standard type can use filter. We can add standard type as a
+new column have constant text "IC50" without filter. These differences make change in running time of query. To analyse this kind of changes, I have made query for about same problem in different way, and these are last 5 chembl queries.  
 
 chembl sparql-endpoint is available at -[click](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
 
