@@ -18,12 +18,12 @@ terminal but for running on sparql-endpoint of triple store, remove the comment 
 Some of the Queries related to ChEMBL sparql endpoint are mention below: 
 
 - [Retrieving chembl molecule on the basis of trade name](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/moleculeSourceForTradeName.rq)
-- [Retrieving the molecular formula of molecule having chembl-id "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/molFormulaof192Molecule.rq)
+- [Retrieving the molecular formula of chembl molecule having chembl-id "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/molFormulaof192Molecule.rq)
 - [Retrieving rotational bond of chembl molecule having chembl-id  "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/rotbonOf192Molecule.rq)
 - [Retrieving trade name of CHEMBL192 molecule](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/tradeNameOf192Molecule.rq)
 - [Retrieving the chembl molecules sources having molecular formula is combination of “C22H30N6O4S”](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/sourceForMolecularFormula.rq)
 - [Retrieving substance types having target type "cell-line"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/substanceTypeToCell-line.rq)
-- [Retrieving target types available in chembl's rdf triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/targetType.rq)
+- [Retrieving target types available in chembl rdf triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/targetType.rq)
 - [Retrieving compound activity details for all target](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/compoundActDetails.rq)
 - [Retrieving all the bioactive chembl molecules for bacterial target](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/bacterialTargetData.rq)
 - [Retrieving chembl molecules targeting “Firefly Luciferase”](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/compoundToFirLuciferase.rq)
