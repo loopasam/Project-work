@@ -1,3 +1,5 @@
+### written in blue is a link as well
+
 # Stuffs related to RDF modeling 
 
  I have used Eclipse Java development tools and library of Apache Jena to make rdf model in different serialisation such as N-triples, Turtle, RDF/XML, and N3.
