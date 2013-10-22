@@ -12,8 +12,8 @@
 
 ---
 
-I have kept the chemblDatabase queries in a folder /Documents/EBIDatabase/Query. we can directlly run the query using 
-terminal but for running on sparql-endpoint of database, remove the comment from query.  
+I have kept the chembl triple store queries in a folder /Documents/EBIDatabase/Query. We can directlly run the query using 
+terminal but for running on sparql-endpoint of triple store, remove the comment from the query.  
 
 Some of the Queries related to ChEMBL sparql endpoint are mention below: 
 
