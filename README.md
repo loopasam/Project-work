@@ -54,6 +54,7 @@ Some of the Queries related to ChEMBL sparql endpoint are mention below:
 
 # Shell Script
 
-Timimg for running query may be different if you run it again and agin so I have made the script to run the same query many times and get the running time in separate file to analyse it. 
+Timimg for running query may be different if you run it again and agin, so I have made the script to run the same query many times and get the running time in separate files to analyse it. 
+Same query but with modification like using filter or not using filter, adding extra text column to output have kept in a single script that cah help to make efficient code. 
 
 - [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
