@@ -1,9 +1,18 @@
 # stuffs related to modeling are here
+
+I have used Eclipse java development tools and library of Apache Jena to make rdf model in different serialisation such as N-triples, Turtle, RDF/XML, and N3.
+
+To know more about Apache Jena? [click](http://jena.apache.org)
+
+Complete guide for beginner to start jena project in Eclipse [click](http://www.iandickinson.me.uk/articles/jena-eclipse-helloworld/)   
+
 - [ Java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
 - [ Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
 
 ---
 # SPARQL query for metadata
+
+if you are new for rdf triple store then you can try these queries, because these work on any triple store. It will help to get familiar with containts of triple store.  
  
 - [Retrieve all available triples from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery1.rq)
 - [Retrieve all types from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery2.rq)
@@ -44,5 +53,7 @@ Some of the Queries related to ChEMBL sparql endpoint are mention below:
 ---
 
 # Shell Script
+
+Timimg for running query may be different if you run it again and agin so I have made the script to run the same query many times and get the running time in separate file to analyse it. 
 
 - [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
