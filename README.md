@@ -1,4 +1,4 @@
-### written in blue is a link as well
+### Written in blue is a link as well
 
 # Stuffs related to RDF modeling 
 
