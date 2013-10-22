@@ -1,9 +1,9 @@
-# stuffs related to modeling are here:
+# stuffs related to modeling are here
 - [ Java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
 - [ Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
 
 ---
-# SPARQL query for metadata:
+# SPARQL query for metadata
  
 - [Retrieve all available triples from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery1.rq)
 - [Retrieve all types from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery2.rq)
@@ -11,7 +11,7 @@
 - [Retrive all labeled data from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery4.rq)
 
 ---
-# CHEMBL SPARQL query:
+# CHEMBL SPARQL query
 
 I have kept the chembl triple store queries in a folder /Documents/EBIDatabase/Query. We can directlly run the query using 
 terminal but for running on sparql-endpoint of chembl triple store, remove the comment from the query. 
@@ -43,6 +43,6 @@ Some of the Queries related to ChEMBL sparql endpoint are mention below:
 
 ---
 
-# Shell Script:
+# Shell Script
 
 - [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
