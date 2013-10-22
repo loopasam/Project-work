@@ -2,9 +2,9 @@
 
 I have used Eclipse java development tools and library of Apache Jena to make rdf model in different serialisation such as N-triples, Turtle, RDF/XML, and N3.
 
-To know more about Apache Jena? [click](http://jena.apache.org)
+To know more about Apache Jena just [click](http://jena.apache.org)
 
-Complete guide for beginner to start jena project in Eclipse [click](http://www.iandickinson.me.uk/articles/jena-eclipse-helloworld/)   
+Complete guide for beginner to start jena project in Eclipse just [click](http://www.iandickinson.me.uk/articles/jena-eclipse-helloworld/)   
 
 - [ Java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
 - [ Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
