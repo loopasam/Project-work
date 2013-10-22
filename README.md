@@ -1,21 +1,21 @@
  stuffs related to modeling are here:
-- [ java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
+- [ Java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
 - [ Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
 
 ---
  SPARQL query for metadata:
  
-- [able to retrieve all available triples](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery1.rq)
-- [able to retrieve all types of database](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery2.rq)
-- [able to retrievie Subclassof related data](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery3.rq)
-- [able to retrive all labeling data in database](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery4.rq)
+- [Able to retrieve all available triples](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery1.rq)
+- [Able to retrieve all types of database](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery2.rq)
+- [Able to retrievie Subclassof related data](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery3.rq)
+- [Able to retrive all labeling data in database](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery4.rq)
 
 ---
 
 I have kept the chemblDatabase queries in a folder /Documents/EBIDatabase/Query. we can directlly run the query using 
 terminal but for running on sparql-endpoint of database, remove the comment from query.  
 
-some of the Queries related to ChEMBL sparql endpoint are mention below: 
+Some of the Queries related to ChEMBL sparql endpoint are mention below: 
 
 - [Retrieving the compound, standered type, standered unit having activity standered type "IC50"  and standered unit "nM" using Filter](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/IC50Compounds.rq)
 - [Retrieving the molecule chembl-ID having activity standard type "IC50" and activity standered unit "nM"](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/IC50Compounds_1.rq)
@@ -41,4 +41,4 @@ some of the Queries related to ChEMBL sparql endpoint are mention below:
 
 Shell Script:
 
-- [most of them are for analysing the running time by programs to make more efficient sparql query](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
+- [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
