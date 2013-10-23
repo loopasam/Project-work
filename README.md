@@ -2,7 +2,7 @@ In case you want to ask anythings related to my work, contact me by mail ashwini
 
 ### Written in blue are links
 
- Github command[..](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/aboutGitCommand.md)
+ Github command[use me](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/aboutGitCommand.md)
 
 # Stuffs related to RDF modeling 
 
