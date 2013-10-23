@@ -4,9 +4,9 @@
 
  I have used Eclipse Java development tools and library of Apache Jena to make rdf model in different serialisation such as N-triples, Turtle, RDF/XML, and N3.
 
- To know more about Apache Jena just [click](http://jena.apache.org)
+ To know more about Apache Jena just go [http://jena.apache.org](http://jena.apache.org)
 
- Complete guide for beginner to start Jena project in Eclipse just [click](http://www.iandickinson.me.uk/articles/jena-eclipse-helloworld/)   
+ Complete guide for beginner to start Jena project in Eclipse just go [http://www.iandickinson.me.uk/articles/jena-eclipse-helloworld/](http://www.iandickinson.me.uk/articles/jena-eclipse-helloworld/)   
 
 - [Java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
 - [Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
@@ -32,7 +32,7 @@
 For example, I am interested in chembl-ID of molecules having activity standard type "IC50" then we can put "IC50" value at standard type but to make a extra column to show that I have selected the correct standard type, can use filter. We can add standard type as a
 new column having constant text "IC50" without filter. These differences make change in running time of query. To analyse this kind of changes, I have made query for about same problem in different way like last 5 chembl queries.  
 
- chembl sparql-endpoint is available at -[click](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
+ chembl sparql-endpoint is available at [http://www.ebi.ac.uk/rdf/services/chembl/sparql?](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
 
  Some of the Queries related to ChEMBL sparql endpoint are mention below: 
 
