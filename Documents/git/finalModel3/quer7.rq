@@ -1,3 +1,6 @@
+# Retrieve the name of Shakespeare and the name of city where he lives. If I put the same variable name for getting the name of person and city then it will get confuse and gives wrong output.
+# if both the peson and city name is same, we can use same variable name both the places then it will give the correct name and just one row in a column.
+
 Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 Prefix cc: <http://www.woman/>
 Prefix tt: <http://www.man/>

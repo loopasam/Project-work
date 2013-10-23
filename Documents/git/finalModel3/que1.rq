@@ -1,3 +1,5 @@
+# Retrieve the name of Shakespeare
+
 Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 Prefix cc: <http://www.woman/>
 Prefix tt: <http://www.man/>
