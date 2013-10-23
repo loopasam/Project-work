@@ -1,4 +1,4 @@
-# it helps to print the time taken in running two programs each of 20 times in a separate file.
+# it helps to print the time taken in running two programs as many times you  want in a separate file.
 # program is for calculating the bacterial target without filter function which is off course less time consuming 
 # and another is adding one more extra constant text column ("Bacteria") .
 
