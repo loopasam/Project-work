@@ -11,7 +11,7 @@
 - [Java programing for making model using Eclipse]( https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial)  
 - [Result of models in different RDF serialisation](https://github.com/Ashwini607/Project-work/blob/master/Documents)
 
- For example, you can see about a model "finalModel3": model written in Java [finalModel3.java](https://github.com/Ashwini607/Project-work/tree/master/Documents/workspace/trial/src/trial) + model output in different serialisations and queries related to this model[click to see it](https://github.com/Ashwini607/Project-work/tree/master/Documents/git/finalModel3)  
+ For example, you can see about a model "finalModel3": model written in Java [finalModel3.java](https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial/finalModel3.java) + model output in different serialisations and queries related to this model[click to see it](https://github.com/Ashwini607/Project-work/tree/master/Documents/git/finalModel3)  
 
 ---
 # SPARQL query for metadata
