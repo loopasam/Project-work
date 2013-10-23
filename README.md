@@ -63,5 +63,6 @@ new column having constant text "IC50" without filter. These differences make ch
 
  Timing in running query may be different if you run a same query again and again, so I have made the script to run the same query many times and get the running time in a separate file for analysis. 
 Same problem but different query like using filter, not using filter, adding extra text column to output has kept in a single shell script but gives different time calculating file for each query. It can help to make efficient code. 
-rsparql meme is a execution file for sparql query present in bin directory of Apache-Jena folder that we changed for need some more space to run query and the name of new execution file is -[rsparqlmem](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin/rsparqlmem). 
+
+rsparql is a execution file for sparql query present in bin directory of Apache-Jena Java framework. We changed it for need of some more space to run the query, and the name of new execution file is -[rsparqlmem](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin/rsparqlmem). 
 - [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin)
