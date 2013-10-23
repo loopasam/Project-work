@@ -1,4 +1,8 @@
+In case you want to ask anythings related to my work, contact me by mail ashwinikmr44@gmail.com
+
 ### Written in blue are links
+
+ Github command[..](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/aboutGitCommand.md)
 
 # Stuffs related to RDF modeling 
 
