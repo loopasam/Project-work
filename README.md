@@ -6,7 +6,7 @@ In case you want to ask anythings related to my work, contact me by mail ashwini
 
 # Stuffs related to RDF modeling 
 
- I have used Eclipse Java development tools and library of Apache Jena to make rdf model in different serialisation such as N-triples, Turtle, RDF/XML, and N3.
+ I have used Eclipse Java development tools and library of Apache Jena to make RDF model in different serialisation such as N-triples, Turtle, RDF/XML, and N3.
 
  To know more about Apache Jena just go [http://jena.apache.org](http://jena.apache.org)
 
@@ -21,7 +21,7 @@ In case you want to ask anythings related to my work, contact me by mail ashwini
 ---
 # SPARQL query for metadata
 
- If you are new in querying rdf triple store then you can try these queries, because these work on any sparql endpoint. It will help to get familiar with contains of triple store.  
+ If you are new in querying RDF triple store then you can try these queries, because these work on any SPARQL endpoint. It will help to get familiar with contains of triple store.  
  
 - [Retrieve all available triples from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery1.rq)
 - [Retrieve all types from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery2.rq)
@@ -29,7 +29,7 @@ In case you want to ask anythings related to my work, contact me by mail ashwini
 - [Retrieve all labeled triple from triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/EBIDatabase/query/metadataQuery4.rq)
 
 ---
-# CHEMBL SPARQL query
+# chembl SPARQL query
 
  I have kept the chembl triple store queries in a folder /Documents/git/ChEMBL-RDF-queries. We can directly run the query, using terminal but for running on sparql-endpoint of chembl triple store, remove the comment from the query. 
 
@@ -39,9 +39,9 @@ In case you want to ask anythings related to my work, contact me by mail ashwini
 For example, I am interested in chembl-ID of molecules having activity standard type "IC50" then we can put "IC50" value at standard type but to make a extra column to show that I have selected the correct standard type, can use filter. We can add standard type as a
 new column having constant text "IC50" without filter. These differences make change in running time of query. To analyse this kind of changes, I have made query for about same problem in different way like last 5 chembl queries.  
 
- chembl sparql-endpoint is available at [http://www.ebi.ac.uk/rdf/services/chembl/sparql?](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
+ chembl SPARQL-endpoint is available at [http://www.ebi.ac.uk/rdf/services/chembl/sparql?](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
 
- Some of the Queries related to ChEMBL sparql endpoint are mention below: 
+ Some of the Queries related to chembl SPARQL endpoint are mention below: 
 
 - [Retrieve chembl molecule on the basis of trade name](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/moleculeSourceForTradeName.rq)
 - [Retrieve the molecular formula of chembl molecule having chembl-id "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/molFormulaof192Molecule.rq)
@@ -71,5 +71,5 @@ new column having constant text "IC50" without filter. These differences make ch
  Timing in running query may be different if you run a same query again and again, so I have made the script to run the same query many times and get the running time in a separate file for analysis. 
 Same problem but different query like using filter, not using filter, adding extra text column to output has kept in a single shell script but gives different time calculating file for each query. It can help to make efficient code. 
 
-rsparql is a execution file for sparql query present in bin directory of Apache-Jena Java framework. We changed it for need of some more space to run the query, and the name of new execution file is [rsparqlmem](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin/rsparqlmem). I have used this new file for running shell script file.
+rsparql is a execution file for SPARQL query present in bin directory of Apache-Jena Java framework. We changed it for need of some more space to run the query, and the name of new execution file is [rsparqlmem](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin/rsparqlmem). I have used this new file for running shell script file.
 - [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin)
