@@ -1,4 +1,4 @@
-# it helps to print the time taken in running one program 20 times in a separate file.
+# it helps to print the time taken in running one program as many times you want in a separate file.
 # program is for calculating the bacterial target using filter function which is off course more time consuming 
 
 echo "enter the number of times a program will execute"
