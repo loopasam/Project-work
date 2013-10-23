@@ -2,12 +2,12 @@
 
 -git add filename #go to the location of file or put path
 
--git commit -m "put message here as you want"
+-git commit -m "put message as you want"
 
 -git push origin master
 
 
-### In case You are want to see the status of files
+### In case You want to see the status of files
 
 -git status
 
