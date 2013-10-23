@@ -13,6 +13,7 @@
 
  For example, you can see about a model "finalModel3": model written in Java [finalModel3.java](https://github.com/Ashwini607/Project-work/blob/master/Documents/workspace/trial/src/trial/finalModel3.java) + model output in different serialisations and queries related to this model [click to see it](https://github.com/Ashwini607/Project-work/tree/master/Documents/git/finalModel3)  
  You can visualise the model by uploading rdf file in RDF-Gravity tool. You can find it at [http://semweb.salzburgresearch.at/apps/rdf-gravity/](http://semweb.salzburgresearch.at/apps/rdf-gravity/)  
+
 ---
 # SPARQL query for metadata
 
