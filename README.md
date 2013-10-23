@@ -57,11 +57,11 @@ new column having constant text "IC50" without filter. These differences make ch
 - [Retrieve chembl molecules activity details for all targets containing a protein of interest, and protein of interest is human M2 muscarinic receptor (P08172)](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/P08172CompActAssTarDet.rq)
 - [Retrieve chembl molecules activity details for a target, and target is Human PDE5 (CHEMBL1827)](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/detailsForTarget.rq)
 - [Retrieve chembl molecules activity details for all target](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/compoundActDetails.rq)
-- [Retrieve chembl molecules chembl-ID, activity standard type, activity standard unit having activity standard type "IC50" and standard unit "nM" using Filter](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/IC50Compounds.rq)
+- [Retrieve chembl molecules chembl-ID, activity standard type, activity standard unit having activity standard type "IC50" and standard unit "nM" using filter](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/IC50Compounds.rq)
 - [Retrieve chembl molecules chembl-ID having activity standard type "IC50" and activity standard unit "nM"](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/IC50Compounds_1.rq)
 - [Retrieve chembl molecules chembl-ID having activity standard type "IC50" and activity standard unit "nM" having extra columns with variable name that contain constant text about standard type and standard unit](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/IC50Compounds_2.rq)
 - [Retrieve chembl molecules chembl-ID having activity standard type "IC50" and activity standard unit "nM" having extra columns that contains constant text about standard type and standard unit](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/IC50Compounds_3.rq)
-- [Retrieve chembl molecules chembl-ID, activity standard type, activity standard unit having activity standard type "IC50" and standard unit "nM" using Filter but two conditions in a single filter](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/IC50Compounds_4.rq)
+- [Retrieve chembl molecules chembl-ID, activity standard type, activity standard unit having activity standard type "IC50" and standard unit "nM" using filter but two conditions in a single filter](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/IC50Compounds_4.rq)
 
 
 ---
@@ -72,4 +72,4 @@ new column having constant text "IC50" without filter. These differences make ch
 Same problem but different query like using filter, not using filter, adding extra text column to output has kept in a single shell script but gives different time calculating file for each query. It can help to make efficient code. 
 
 rsparql is a execution file for SPARQL query present in bin directory of Apache-Jena Java framework. We changed it for need of some more space to run the query, and the name of new execution file is [rsparqlmem](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin/rsparqlmem). I have used this new file for running shell script file.
-- [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin)
+- [Most of them are for analysing the running time of SPARQL query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/bin)
