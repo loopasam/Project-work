@@ -41,7 +41,7 @@ new column having constant text "IC50" without filter. These differences make ch
 
  chembl SPARQL-endpoint is available at [http://www.ebi.ac.uk/rdf/services/chembl/sparql?](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
 
- Some of the Queries related to chembl SPARQL endpoint are mention below: 
+ Some of the queries related to chembl SPARQL endpoint are mention below: 
 
 - [Retrieve chembl molecule on the basis of trade name](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/moleculeSourceForTradeName.rq)
 - [Retrieve the molecular formula of chembl molecule having chembl-id "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/molFormulaof192Molecule.rq)
