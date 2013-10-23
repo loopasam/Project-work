@@ -29,9 +29,9 @@ terminal but for running on sparql-endpoint of chembl triple store, remove the c
 
  Note: Try to avoid the use of filter function in SPARQL query, because it takes more time for running.
 
- In some of the quiries, I have used the filter function even is not needed but just to make a separate column.
-For example, I am interested in chembl-ID of molecules have activity standard type "IC50" then we can just put "IC50" value at standard type but to make a extra column to show that I have selected the correct standard type can use filter. We can add standard type as a
-new column have constant text "IC50" without filter. These differences make change in running time of query. To analyse this kind of changes, I have made query for about same problem in different way, and these are last 5 chembl queries.  
+ In some of the quiries, I have used the filter function even is not needed but just to make extra column which give satisfaction for correct output. I helps If you are new for triple store.
+For example, I am interested in chembl-ID of molecules having activity standard type "IC50" then we can put "IC50" value at standard type but to make a extra column to show that I have selected the correct standard type, can use filter. We can add standard type as a
+new column having constant text "IC50" without filter. These differences make change in running time of query. To analyse this kind of changes, I have made query for about same problem in different way like last 5 chembl queries.  
 
  chembl sparql-endpoint is available at -[click](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
 
@@ -62,7 +62,7 @@ new column have constant text "IC50" without filter. These differences make chan
 
 # Shell Script
 
- Timimg for running query may be different if you run it again and agin, so I have made the script to run the same query many times and get the running time in separate files to analyse it. 
-Same query but with modification like using filter or not using filter, adding extra text column to output have kept in a single script that cah help to make efficient code. 
+ Timimg in running query may be different if you run a same query again and again, so I have made the script to run the same query many times and get the running time in a separate file to analyse it. 
+Same problem but different query like using filter, not using filter, adding extra text column to output has kept in a single shell script but gives different time calculating file for each query. It can help to make efficient code. 
 
 - [Most of them are for analysing the running time of sparql query to make more efficient code](https://github.com/Ashwini607/Project-work/blob/master/Documents/bin)
