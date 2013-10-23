@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# just a example taken from internet to see the output
+# just an example taken from internet to see the output
 
 #!/bin/bash
 # This script clears the terminal, displays a greeting and gives information
