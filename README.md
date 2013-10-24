@@ -42,13 +42,13 @@ new column having constant text "IC50" without filter. These differences make ch
  chembl SPARQL-endpoint is available at [http://www.ebi.ac.uk/rdf/services/chembl/sparql?](http://www.ebi.ac.uk/rdf/services/chembl/sparql?)
 
  Some of the queries related to chembl SPARQL endpoint are mention below: 
-- Simple (Information related to just the molecule). 
+  Simple (Information related to just the molecule): 
 - [Retrieve chembl molecule on the basis of trade name](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/moleculeSourceForTradeName.rq)
 - [Retrieve the molecular formula of chembl molecule having chembl-id "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/molFormulaof192Molecule.rq)
 - [Retrieve rotational bond of chembl molecule having chembl-id  "CHEMBL192"](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/rotbonOf192Molecule.rq)
 - [Retrieve trade name of CHEMBL192 molecule](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/tradeNameOf192Molecule.rq)
 - [Retrieve the chembl molecules URI having molecular formula is combination of “C22H30N6O4S”](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/sourceForMolecularFormula.rq)
-- Moderate (Need to know about schema to reach the specific location)
+  Moderate (Need to know about schema to reach the specific location):
 - [Retrieve substance types having target type "cell-line"](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/substanceTypeToCell-line.rq)
 - [Retrieve target types available in chembl rdf triple store](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/targetType.rq)
 - [Retrieve compound activity details for all target](https://github.com/Ashwini607/Project-work/blob/master/Documents/git/ChEMBL-RDF-queries/compoundActDetails.rq)
