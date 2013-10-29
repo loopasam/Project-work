@@ -3,11 +3,11 @@
 This repository contains a list of queries illustrating how to use the ChEMBL SPARQL enpoint. If you are new to the
 semantic web, you can [follow a tutorial]() first. If you have some knowledge about SQL and relational database already, the transition to SPARQL should be easy, you can directly get started!
 
-*Location of the SPARQL endpoint:* http://www.ebi.ac.uk/rdf/services/chembl/sparql
+**Location of the SPARQL endpoint:** http://www.ebi.ac.uk/rdf/services/chembl/sparql
 
-*More documentation:* http://www.ebi.ac.uk/rdf/documentation/chembl
+**Documentation about the endpoint:** http://www.ebi.ac.uk/rdf/documentation/chembl
 
-*Contact:* http://www.ebi.ac.uk/rdf/chembl-contact
+**Contact:** http://www.ebi.ac.uk/rdf/chembl-contact
 
 
 # Examples of SPARQL queries over the ChEMBL end-point
