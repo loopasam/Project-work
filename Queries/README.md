@@ -1,16 +1,29 @@
 # Introduction
 
 This repository contains a list of queries illustrating how to use the ChEMBL SPARQL enpoint. If you are new to the
-semantic web, you can [follow a tutorial]() first. If you have some knowledge about SQL and relational database already, the transition to SPARQL should be easy, you can directly get started!
+semantic web, you can [follow a tutorial](). If you have some knowledge about SQL and relational database already, the transition to SPARQL should be easy, you can directly get started!
 
-**Location of the SPARQL endpoint:** http://www.ebi.ac.uk/rdf/services/chembl/sparql
+## RDF
 
-**Documentation about the endpoint:** http://www.ebi.ac.uk/rdf/documentation/chembl
+RDF stands for Resource Description Framework. Briefly, it is a conceptual way of representing data as a graph, as opposite to relational databases, focusing on relations. Within RDF, the information is encoded as triples, and identifiers are Universal Resource Identifiers (URI or web addresses). Representing data as a graph is interesting because it simplifies the integration of information from different sources.
 
-**Contact:** http://www.ebi.ac.uk/rdf/chembl-contact
+## SPARQL
 
+SPARQL is a language used to query RDF data. It is fairly similar to SQL, yet better standardised and more flexible to query multiple data sources or *services* in the same time. A *SPARQL endpoint* is a web address you used to access the RDF data and run SPARQL queries. The ChEMBL SPARQL enpoint is located at http://www.ebi.ac.uk/rdf/services/chembl/sparql
 
-# Examples of SPARQL queries over the ChEMBL end-point
+## What should I consider using the SPARQL endpoint?
+
+Semantic web technologies provide two main advantages. First, they remove the need to maintain, update, download, parse and handle flat files or databases. You can query the ChEMBL data directly from the web, in a fully automated way. RDF helps you to focus entirely on the query, where the real scientific value is.
+
+Secondly, it becomes easier to integrate the data from another provider. For instance, when you analyse ChEMBL data, you may realise that it would be interesting to combine your current results with gene expression or pathway information. SPARQL allows you to do this very easily, as illustrated in the example queries.
+
+## How do I run the queries?
+
+You can directly copy and paste the queries from the files in the web form on the [SPARQL endpoint](http://www.ebi.ac.uk/rdf/services/chembl/sparql). Do not include the commented lines, starting with the symbol `#`, the endpoint does not support them yet.
+
+It is also possible to run the queries from R or with command lines. More examples will come to demonstrate this feature. Finally, you can also [check the ChEMBL endpoint documentation](http://www.ebi.ac.uk/rdf/services/chembl/sparql) or [contact us](http://www.ebi.ac.uk/rdf/documentation/chembl) if you are facing problems.
+
+# SPARQL queries over the ChEMBL end-point
 
 I have kept the ChEMBL triple store queries in a folder /Documents/git/ChEMBL-RDF-queries. We can directly run the query, using terminal but for running on sparql-endpoint of ChEMBL triple store, remove the comment from the query. 
 
